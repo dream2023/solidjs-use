@@ -1,1 +1,0 @@
-import{p as e}from"./index-dae16e14.js";function c(){const t=new Set,n=r=>{t.delete(r)};return{on:r=>{t.add(r);const o=()=>n(r);return e(o),{off:o}},off:n,trigger:r=>Promise.all(Array.from(t).map(o=>o(r)))}}export{c};
